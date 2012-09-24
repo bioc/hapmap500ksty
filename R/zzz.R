@@ -1,5 +1,5 @@
-.onLoad <- function(libname, pkgname) {
-  message(paste("/-------------------------------------------\\",
+.onAttach <- function(libname, pkgname) {
+  packageStartupMessage(paste("/-------------------------------------------\\",
                 "|         SAMPLE HAPMAP 500K STY            |",
                 "|-------------------------------------------|",
                 "| Data obtained from http://www.hapmap.org  |",
